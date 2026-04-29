@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global background safety net */
+body {
+  @apply bg-surface-container-lowest;
+}
+
+/* Smooth scroll — CSS only, no JS library */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Material Symbols config */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom scrollbar (from original HTML) */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #00D2FF;
+  border-radius: 10px;
+}
+
+/* Selection colors */
+::selection {
+  background-color: #00d2ff;
+  color: #00566a;
+}

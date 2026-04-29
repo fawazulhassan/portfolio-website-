@@ -1,0 +1,87 @@
+.get-in-touch-page {
+  /* Panel styling */
+}
+
+.get-in-touch-panel {
+  box-shadow: 0 0 28px rgba(0, 210, 255, 0.09);
+}
+
+.get-in-touch-panel__glow {
+  /* Glow effect positioned absolutely inside panel */
+}
+
+/* Form field styling */
+.get-in-touch-field {
+  border: 1px solid rgba(0, 210, 255, 0.18);
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.get-in-touch-field:focus {
+  border-color: #00d2ff;
+  box-shadow: 0 0 16px rgba(0, 210, 255, 0.22);
+}
+
+/* Submit button styling */
+.get-in-touch-send-btn {
+  box-shadow: 0 0 20px rgba(0, 210, 255, 0.32);
+  position: relative;
+  overflow: hidden;
+}
+
+.get-in-touch-send-btn::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  pointer-events: none;
+}
+
+.get-in-touch-send-btn::after {
+  content: '';
+  position: absolute;
+  left: -30%;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  animation: getInTouchSheen 3.2s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes getInTouchSheen {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(460%);
+  }
+}
+
+/* Availability badge pulse animation */
+.get-in-touch-pulse {
+  animation: getInTouchPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes getInTouchPulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Contact cards */
+.get-in-touch-card {
+  /* Styling handled by Tailwind classes */
+}
+
+/* Map styling */
+.get-in-touch-map-img {
+  /* Grayscale and hover effects handled by Tailwind */
+}
+
+.get-in-touch-map-overlay {
+  /* Gradient overlay positioning */
+}

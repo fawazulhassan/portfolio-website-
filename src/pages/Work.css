@@ -1,0 +1,11 @@
+.work-page .material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.work-page .work-neon-glow {
+  text-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+}

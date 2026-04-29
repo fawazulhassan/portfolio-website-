@@ -1,0 +1,49 @@
+.hire-me-panel {
+  box-shadow: 0 0 28px rgba(0, 210, 255, 0.09);
+}
+
+.hire-me-field {
+  border: 1px solid rgba(0, 210, 255, 0.18);
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.hire-me-field:focus {
+  border-color: #00d2ff;
+  box-shadow: 0 0 16px rgba(0, 210, 255, 0.22);
+}
+
+.hire-me-send-btn {
+  box-shadow: 0 0 20px rgba(0, 210, 255, 0.32);
+  position: relative;
+  overflow: hidden;
+}
+
+.hire-me-send-btn::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  pointer-events: none;
+}
+
+.hire-me-send-btn::after {
+  content: '';
+  position: absolute;
+  left: -30%;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  animation: hireMeSheen 3.2s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes hireMeSheen {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(460%);
+  }
+}

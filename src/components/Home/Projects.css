@@ -1,0 +1,16 @@
+/* Projects carousel styles */
+.home-projects__carousel {
+  -webkit-overflow-scrolling: touch;
+}
+
+.home-projects__card {
+  transition: transform 300ms ease-out;
+}
+
+.home-projects__card:hover {
+  transform: translateY(-4px);
+}
+
+.home-projects__card-image img {
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
+}

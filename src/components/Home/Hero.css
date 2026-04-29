@@ -1,0 +1,31 @@
+/* Hero section animations */
+.home-hero__badge {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.home-hero__title {
+  animation: fadeInUp 0.8s ease-out 0.1s both;
+}
+
+.home-hero__subtitle {
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.home-hero__actions {
+  animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.home-hero__image-wrapper {
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
