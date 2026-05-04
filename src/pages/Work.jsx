@@ -15,7 +15,7 @@ const projects = [
     tags: ['#React', '#TypeScript', '#React Router', '#Tailwind CSS' ,  '#Vite' , '#Supabase', '#Vercel', '#Cursor', '#GitHub Copilot', '#Claude', 'Stitch'],
     liveUrl: 'https://leafy-luxe-site.vercel.app/',
     githubUrl: 'https://github.com/fawazulhassan/leafy-luxe-site.git',
-    image: '/images/portfolio-1.PNG',
+    image: '/images/portfolio-1.webp',
     alt: 'Modern high-tech dashboard interface with dark navy theme, cyan glowing charts, and sleek minimalist data visualizations',
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     liveUrl: 'https://doctor-website-liart.vercel.app/',
     githubUrl: 'https://github.com/fawazulhassan/DoctorWebsite.git',
     image:
-      '/images/linkdin-thumnail-1.PNG',
+      '/images/linkdin-thumnail-1.webp',
     alt: 'Abstract view of clean source code on a dark screen with vibrant syntax highlighting in electric blue and purple',
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     liveUrl: 'https://client-voice-control-1.vercel.app/',
     githubUrl: 'https://github.com/fawazulhassan/client-voice-control-1-.git',
     image:
-      '/images/linkdin-thumnail-2.PNG',
+      '/images/linkdin-thumnail-2.webp',
     alt: 'Minimalist smartphone mockups floating over a deep navy background with subtle tech patterns and glowing neon accents',
   },
   {
@@ -72,7 +72,7 @@ visualize traffic data
     liveUrl: '#',
     githubUrl: '#',
     image:
-      '/images/home-doctor-website.png',
+      '/images/home-doctor-website.webp',
     alt: 'Deep blue programming background with stacked lines of code and glowing neon brackets',
   },
   {
@@ -85,7 +85,7 @@ visualize traffic data
     liveUrl: '#',
     githubUrl: '#',
     image:
-      '/images/fake review detection.png',
+      '/images/fake review detection.webp',
     alt: 'Conceptual smartphone application UI layout with rounded glassmorphism cards and vibrant glowing interface elements',
   },
 ]

@@ -60,7 +60,7 @@ export default function Hero() {
    <img
   alt="Profile"
   className="relative rounded-lg w-full aspect-square object-cover object-top border border-white/10 shadow-2xl"
-  src="/images/hero-img.jpg"
+  src="/images/hero-img.webp"
 />
         </div>
       </div>

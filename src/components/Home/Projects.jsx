@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: 'The Nursery Pakistan',
     description: 'E-commerce platform for premium plants and organic fertilizers.',
-    image: '/images/portfolio-1.PNG',
+    image: '/images/portfolio-1.webp',
     livePreviewLink: 'https://leafy-luxe-site.vercel.app/',
     githubLink: 'https://github.com/fawazulhassan/leafy-luxe-site.git',
   },
@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: 'Doctor Appointment Web Application',
     description: 'Healthcare web app with three appointment modes: Clinic, Online Consultation, and Home Visit.',
-    image: '/images/linkdin-thumnail-1.PNG',
+    image: '/images/linkdin-thumnail-1.webp',
     livePreviewLink: 'https://doctor-website-liart.vercel.app/',
     githubLink: 'https://github.com/fawazulhassan/DoctorWebsite.git',
   },
@@ -23,7 +23,7 @@ const projects = [
     id: 3,
     title: 'Client React Website',
     description: 'A modern, responsive React-based website for a client',
-    image: '/images/linkdin-thumnail-2.PNG',
+    image: '/images/linkdin-thumnail-2.webp',
     livePreviewLink: 'https://client-voice-control-1.vercel.app/',
     githubLink: 'https://github.com/fawazulhassan/client-voice-control-1-.git',
   },
@@ -31,7 +31,7 @@ const projects = [
     id: 4,
     title: 'Density-Based Smart Traffic Light System',
     description: 'Analyzed real-time traffic density and prioritized signal flow for roads with higher vehicle volume',
-    image: '/images/density based smart traffic light system.png',
+    image: '/images/density based smart traffic light system.webp',
     livePreviewLink: '#',
     githubLink: '#',
   },
@@ -39,7 +39,7 @@ const projects = [
     id: 5,
     title: 'Healthcare Clinic',
     description: 'Mental health & pediatric care clinic booking and consultation platform.',
-    image: '/images/home-doctor-website.png',
+    image: '/images/home-doctor-website.webp',
     livePreviewLink: '#',
     githubLink: '#',
   },
@@ -47,7 +47,7 @@ const projects = [
     id: 6,
     title: 'Fake Review Detection',
     description: 'Data mining system to detect and check review authenticity using ML.',
-    image: '/images/fake review detection.png',
+    image: '/images/fake review detection.webp',
     livePreviewLink: '#',
     githubLink: '#',
   },
@@ -211,3 +211,4 @@ export default function Projects() {
     </section>
   );
 }
+
