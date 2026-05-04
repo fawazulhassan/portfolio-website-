@@ -14,7 +14,7 @@ export default function Navbar() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/Fawaz_CV_Updated_New.docx';
+    link.href = '/Fawaz_CV.docx';
     link.download = 'Fawaz_CV.docx';
     document.body.appendChild(link);
     link.click();
