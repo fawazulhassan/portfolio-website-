@@ -1,126 +1,159 @@
-# MERN.Dev Portfolio — React Edition
+# 🧑‍💻 Personal Portfolio — Muhammad Fawaz ul Hassan
 
-A modern, fully responsive portfolio website built with React, Tailwind CSS, and Vite. Showcasing full-stack (MERN) development expertise with a sleek dark theme and neon accents.
+A modern, fully responsive personal portfolio website built with React.js and deployed on Vercel. Showcasing full-stack (MERN) development projects, skills, and contact information.
 
-## 🎨 Features
+Live at **[portfolio-website-bwxe.vercel.app](https://portfolio-website-bwxe.vercel.app/)**
 
-- **Responsive Design**: Perfectly optimized for mobile, tablet, and desktop
-- **Dark Theme**: Always-on dark mode with electric blue and purple neon accents
-- **Component-Based Architecture**: Modular, reusable React components
-- **Smooth Animations**: CSS-based animations for performance
-- **Tailwind CSS**: Utility-first styling with custom design tokens
-- **Mobile Menu**: Hamburger navigation for small screens
-- **Accessibility**: Semantic HTML and ARIA labels
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+---
+
+## 🚀 Live Demo
+
+🔗 [portfolio-website-bwxe.vercel.app](https://portfolio-website-bwxe.vercel.app/)
+
+---
+
+## 📋 Features
+
+- **Responsive Design** — Optimized for mobile, tablet, and desktop
+- **Dark Theme** — Sleek dark mode with electric blue and purple neon accents
+- **Projects Showcase** — Highlights real production apps with live links
+- **Tech Stack Section** — Visual display of skills and technologies
+- **WhatsApp Integration** — Direct contact via WhatsApp button
+- **Smooth Animations** — CSS-based animations for performance
+- **Mobile Menu** — Hamburger navigation for small screens
+- **Component-Based Architecture** — Modular, reusable React components
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|---|---|
+| Frontend | React.js, JavaScript (ES6+) |
+| Styling | Tailwind CSS, CSS3 |
+| Build Tool | Vite |
+| Deployment | Vercel |
+| Version Control | Git & GitHub |
+
+---
 
 ## 📁 Project Structure
 
-```
+```plaintext
 src/
 ├── pages/
 │   └── Home.jsx                 # Main page
 ├── components/
 │   ├── Shared/
-│   │   ├── Navbar.jsx          # Navigation bar with hamburger
-│   │   └── Footer.jsx          # Footer section
+│   │   ├── Navbar.jsx           # Navigation bar with hamburger menu
+│   │   └── Footer.jsx           # Footer section
 │   └── Home/
-│       ├── Hero.jsx            # Hero section
-│       ├── Projects.jsx        # Projects carousel
-│       ├── Technologies.jsx    # Skills & tech stack
-│       ├── Services.jsx        # Service offerings
-│       ├── About.jsx           # Timeline section
-│       └── Cta.jsx             # Call-to-action section
+│       ├── Hero.jsx             # Hero / introduction section
+│       ├── Projects.jsx         # Projects showcase
+│       ├── Technologies.jsx     # Skills & tech stack
+│       ├── Services.jsx         # Service offerings
+│       ├── About.jsx            # About & timeline section
+│       └── Cta.jsx              # Call-to-action section
 ├── hooks/
-│   └── useToggle.js            # Mobile menu toggle hook
+│   └── useToggle.js             # Mobile menu toggle hook
 ├── styles/
-│   └── global.css              # Global styles & Tailwind directives
+│   └── global.css               # Global styles & Tailwind directives
 ├── App.jsx
 └── main.jsx
 ```
 
-## 🚀 Getting Started
+---
+
+## 📦 Getting Started
 
 ### Prerequisites
 
-- Node.js (v16+)
-- npm or yarn
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/)
 
 ### Installation
 
-1. Navigate to the project directory:
-   ```bash
-   cd portfolio-react
-   ```
+**1. Clone the repository**
+```bash
+git clone https://github.com/fawazulhassan/portfolio-website-.git
+cd portfolio-website-
+```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+**2. Install dependencies**
+```bash
+npm install
+```
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+**3. Run the development server**
+```bash
+npm run dev
+```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
+The app will be running at `http://localhost:5173`
 
-## 🏗️ Build & Deploy
-
-Build for production:
+### Build for Production
 ```bash
 npm run build
 ```
 
-Preview production build:
+### Preview Production Build
 ```bash
 npm run preview
 ```
 
+---
+
 ## 🎯 Responsive Breakpoints
 
-- **Mobile**: Default (≤ 767px)
-- **Tablet**: `md:` (768px+)
-- **Desktop**: `lg:` (1024px+)
-- **Large Desktop**: `xl:` (1280px+)
+| Breakpoint | Screen Size |
+|---|---|
+| Mobile | Default (≤ 767px) |
+| Tablet | `md:` (768px+) |
+| Desktop | `lg:` (1024px+) |
+| Large Desktop | `xl:` (1280px+) |
+
+---
 
 ## 🎨 Design System
 
 ### Colors
-
-Primary palette includes:
-- **Primary**: Electric Blue (#00d2ff)
-- **Secondary**: Vivid Purple (#3e23ce)
-- **Surface**: Deep Navy (#0d1322)
-
-See `tailwind.config.js` for all 40+ design tokens.
+- **Primary**: Electric Blue (`#00d2ff`)
+- **Secondary**: Vivid Purple (`#3e23ce`)
+- **Surface**: Deep Navy (`#0d1322`)
 
 ### Typography
-
-- **Font**: Inter (loaded from Google Fonts)
-- **Hierarchy**: display-lg, headline-md, headline-sm, body-lg, body-md, label-sm
-
-## 📱 Mobile Features
-
-- Responsive hamburger menu
-- Touch-friendly navigation
-- Optimized image loading
-- Smooth scroll behavior (CSS-only)
-
-## 🔗 External Resources
-
-- **Fonts**: Google Fonts CDN (Inter)
-- **Icons**: Material Symbols (Google)
-- **Profile Images**: Google-hosted URLs (flagged for future replacement)
-
-## ⚠️ Notes
-
-- Google-hosted images are used for profile and project screenshots. These may become unavailable without notice — plan for replacement in a future asset-management pass.
+- **Font**: Inter (Google Fonts)
 - Dark mode is permanently enabled (`class="dark"` on `<html>`)
-- No external routing library is used (single-page application)
 
-## 🤝 Contributing
+---
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+## 🚀 Deployment
+
+This project is deployed on **Vercel**.
+
+To deploy your own instance:
+1. Push your code to GitHub
+2. Import the repo into [Vercel](https://vercel.com)
+3. Deploy — no environment variables needed
+4. Your portfolio will be live instantly
+
+---
+
+## 👨‍💻 Developer
+
+**Muhammad Fawaz ul Hassan**
+- 🌐 [portfolio-website-bwxe.vercel.app](https://portfolio-website-bwxe.vercel.app/)
+- 💼 [linkedin.com/in/muhammad-fawaz-ul-hassan](https://linkedin.com/in/muhammad-fawaz-ul-hassan/)
+- 📧 fawazulhassan@gmail.com
+
+---
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available for learning and reference purposes.
+© 2026 Muhammad Fawaz ul Hassan
